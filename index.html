@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhana Tabassum | Engineering Innovation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loading-screen">
+        <div class="naruto-loader-container">
+            <div class="loading-bar-wrapper">
+                <div class="naruto-runner">
+                    <div class="rasengan"></div>
+                </div>
+                <div class="loading-bar-fill"></div>
+            </div>
+            <div class="loader-text">CHARGING CHAKRA<span>...</span></div>
+        </div>
+    </div>
+
+    <canvas id="particle-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">FAR<span>HANA</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section id="home" class="hero section active">
+            <div class="hero-content">
+                <div class="home-avatar-wrapper">
+                    <img src="farhana.jpg" alt="Farhana Tabassum" class="avatar-circle">
+                </div>
+                <h1>Engineering <span class="text-gradient">Innovation</span></h1>
+                <p class="hero-subtext">CSE Student at AIUB & Aspiring Inventor</p>
+                <a href="#projects" class="btn-gradient">Explore Projects</a>
+            </div>
+        </section>
+
+        <section id="about" class="container section">
+            <div class="about-grid">
+                <div class="about-profile">
+                    <div class="profile-frame">
+                        <img src="farhana.jpg" alt="Farhana Tabassum" class="profile-img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I am a Computer Science and Engineering student at American International University-Bangladesh (AIUB). With a 3.81 CGPA, I am passionate about solving complex problems and describe myself as an aspiring inventor. My work spans from smart irrigation systems to digital finance research.</p>
+                    <div class="about-stats">
+                        <div class="stat-card"><h3>2027</h3><p>Expected Graduation</p></div>
+                        <div class="stat-card"><h3>3.81</h3><p>Current CGPA</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Smart Tree Monitoring</h3>
+                        <p>An automated irrigation system designed for environmental sustainability.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Digital Finance Research</h3>
+                        <p>Impact analysis of digital finance on food security for smallholders in Bangladesh.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Mortality Rate Analysis</h3>
+                        <p>Thesis research focusing on district-wise mortality data in Bangladesh.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container section">
+            <div class="contact-box">
+                <h2>Get In Touch</h2>
+                <form id="portfolio-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-gradient">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
